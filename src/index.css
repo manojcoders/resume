@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap');
+
+.card-content {
+  font-family: Cormorant Garamond, serif;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: #d1d5db;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.mb-2 {
+  margin-bottom: .5rem;
+}
+.card-content-syne {
+  font-family: 'Syne', serif;
+}
