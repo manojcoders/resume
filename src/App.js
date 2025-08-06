@@ -93,7 +93,7 @@ const App = () => {
      </div>
      {/* {projects} */}
      <div className="card bg-white rounded-lg p-6 col-span-1 row-span-1 md:row-span-2 md:col-span-2">
-      <h4 class="font-bold card-content border-b-2 mb-2 border-gray-300">Projects</h4>
+      <h4 class="font-bold card-content border-b-2 mb-2 border-gray-300">Projects & Experience</h4>
       <div className="text-sm card-content-syne max-h-60 overflow-y-hidden hover:overflow-y-auto">
         <div className="flex flex-col pb-2">
           <span class="text-gray-600">Own project</span>
@@ -189,7 +189,7 @@ const App = () => {
        </div>
        {/* {year} */}
        <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
-        <h4 class="font-bold border-b-2 mb-2 border-gray-300 text-sm card-content-syne">Fresher</h4>
+        <h4 class="font-bold border-b-2 mb-2 border-gray-300 text-sm card-content-syne">Experience</h4>
         <p class="text-black text-center text-6xl">1</p>
        </div>
         {/* {cv} */}
