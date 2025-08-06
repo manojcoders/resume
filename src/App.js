@@ -196,7 +196,7 @@ const App = () => {
        <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
        <h4 className="font-bold card-content border-b-2 mb-2 border-gray-300" >CV</h4>
         <div class="card-content-syne p-1 rounded-full border text-gray">
-          <a href="manoj edit resume.pdf" target="_blank"class="py-1 px-2 text-xs border-gray-600 flex items-center justify-between">
+          <a href="manoj edit resume 1.pdf" target="_blank"class="py-1 px-2 text-xs border-gray-600 flex items-center justify-between">
           View
           <span class="material-symbols-outlined text-xs ml-1">
          arrow_outward
@@ -204,7 +204,7 @@ const App = () => {
          </a>
          </div>
          <div class="card-content-syne p-1 rounded-full border text-gray">
-          <a href="manoj edit resume.pdf"download class="py-1 px-2 text-xs border-gray-600 flex items-center justify-between">
+          <a href="manoj edit resume 1.pdf"download class="py-1 px-2 text-xs border-gray-600 flex items-center justify-between">
           download 
           <span class="material-symbols-outlined text-xs ml-4">
           arrow_downward_alt
