@@ -104,18 +104,18 @@ const App = () => {
           </p>
         </div>
         <div className="flex flex-col pb-2">
-          <span class="text-gray-600">Own collage Apllication Registration</span>
+          <span class="text-gray-600">Competency Skills (Ford Company)</span>
           
-          <p class="text-gray-400 text-xs font-serif">Creating a college application system with email and phone 
-          verification using PHP and MySQL involves multiple steps</p>
+          <p class="text-gray-400 text-xs font-serif">Developed SPFx solutions at Ford to enhance SharePoint-based competency assessments and internal workflows. Integrated dynamic
+          list handling and modern React components for improved usability and efficienc</p>
         </div>
         <div className="flex flex-col pb-2">
-          <span class="text-gray-600">Atm project</span>
+          <span class="text-gray-600">H360(In Patient&Outpatient)</span>
           
-          <p class="text-gray-400 text-xs font-serif">ATM Project simulates basic banking operations like balance inquiry, cash withdrawal, and deposits.
-         The frontend uses JavaScript for interactivity and user inputs.
-         The backend is powered by PHP to handle login authentication and transactions securely.
-         User data (balance, username, and PIN) is stored and managed using a MySQL database.</p>
+          <p class="text-gray-400 text-xs font-serif">H360 is a comprehensive hospital management system designed
+            to streamline patient care, appointments, billing, and reporting. It integrates
+            various modules like inpatient, outpatient, diagnostics, and pharmacy for seamless healthcare operations. The system supports dynamic file uploads (PDF/images), digital signatures, and printable medical summaries. Built using PHP, jQuery, 
+            and MySQL, H360 improves hospital efficiency and enhances patient experience.</p>
         </div>
         {/* <div className="flex flex-col pb-2">
           <span class="text-gray-600">Bsc computer science</span>
@@ -190,7 +190,7 @@ const App = () => {
        {/* {year} */}
        <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
         <h4 class="font-bold border-b-2 mb-2 border-gray-300 text-sm card-content-syne">Fresher</h4>
-        <p class="text-black text-center text-6xl">0</p>
+        <p class="text-black text-center text-6xl">1</p>
        </div>
         {/* {cv} */}
        <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
