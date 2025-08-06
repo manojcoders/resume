@@ -66,7 +66,7 @@ const App = () => {
       <div className="text-sm card-content-syne max-h-60 overflow-y-hidden hover:overflow-y-auto">
         <div className="flex flex-col pb-2">
           <span class="text-gray-600">Software Developer</span>
-          <span class="text-gray-600 ">VulcanTechs | Jan 2024 - Aug 2024 (8 months)</span>
+          <span class="text-gray-600 ">VulcanTechs | Jun 2024 - Dec 2024 (7 months)</span>
           <span class="text-gray-400 text-xs font-serif">
           Assisted in developing and maintaining web applications using [specific technologies, e.g., PHP, MySQL, or React].
           Collaborated with cross-functional teams to implement new features and optimize performance.
@@ -110,7 +110,7 @@ const App = () => {
           list handling and modern React components for improved usability and efficienc</p>
         </div>
         <div className="flex flex-col pb-2">
-          <span class="text-gray-600">H360(In Patient&Outpatient)</span>
+          <span class="text-gray-600">H360 (In Patient&Outpatient)</span>
           
           <p class="text-gray-400 text-xs font-serif">H360 is a comprehensive hospital management system designed
             to streamline patient care, appointments, billing, and reporting. It integrates
