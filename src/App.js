@@ -62,16 +62,27 @@ const App = () => {
      </div>
      {/* {intere ship} */}
      <div className="card bg-white rounded-lg p-6 col-span-1 row-span-1 md:row-span-2 md:col-span-2">
-      <h4 class="font-bold card-content border-b-2 mb-2 border-gray-300">Interenship&Education</h4>
+      <h4 class="font-bold card-content border-b-2 mb-2 border-gray-300">Intern&Education</h4>
       <div className="text-sm card-content-syne max-h-60 overflow-y-hidden hover:overflow-y-auto">
         <div className="flex flex-col pb-2">
-          <span class="text-gray-600">Software Developer</span>
+          <span class="text-gray-600">Junior Software Developer</span>
           <span class="text-gray-600 ">VulcanTechs | Jun 2024 - Dec 2024 (7 months)</span>
           <span class="text-gray-400 text-xs font-serif">
           Assisted in developing and maintaining web applications using [specific technologies, e.g., PHP, MySQL, or React].
           Collaborated with cross-functional teams to implement new features and optimize performance.
           Gained hands-on experience in debugging, testing, and deploying software solutions.
           </span>
+          <span class="text-gray-600">Software Developer</span>
+          <span class="text-gray-600">VulcanTechs | Jan 2024 – Present</span>
+          <span class="text-gray-400 text-xs font-serif">
+            • Joined as an Intern and later converted to a Regular Full-Time Employee.<br>
+            • Developing and maintaining web applications using PHP, MySQL, JavaScript, React, Node.js, and jQuery.<br>
+            • Handling AWS deployment: EC2, S3, IAM, VPC, Security Groups, Load Balancer, Auto Scaling, and ACM.<br>
+            • Collaborating with cross-functional teams to implement features and improve performance.<br>
+            • Debugging, testing, and deploying scalable software solutions.
+          </span>
+
+           
         </div>
         
         <div className="flex flex-col pb-2">
@@ -117,6 +128,19 @@ const App = () => {
             various modules like inpatient, outpatient, diagnostics, and pharmacy for seamless healthcare operations. The system supports dynamic file uploads (PDF/images), digital signatures, and printable medical summaries. Built using PHP, jQuery, 
             and MySQL, H360 improves hospital efficiency and enhances patient experience.</p>
         </div>
+        <div className="flex flex-col pb-2">
+          <span class="text-gray-600">Qutone Project (AWS Deployment)</span>
+        
+          <p class="text-gray-400 text-xs font-serif">
+            Qutone is a cloud-based application where I managed complete AWS deployment using SSM and PuTTY 
+            for secure server access. The deployment process included configuring EC2 instances, setting up an 
+            S3 bucket for storing build files, managing IAM roles and permissions, and configuring VPC and 
+            Security Groups for secure network access. I handled manual build uploads to S3, server setup, 
+            environment configuration, and application deployment through SSM Session Manager without using CI/CD. 
+            This ensured a secure, controlled, and stable cloud environment for the application.
+          </p>
+        </div>
+
         {/* <div className="flex flex-col pb-2">
           <span class="text-gray-600">Bsc computer science</span>
           <span class="text-gray-600">2021-2024</span>
