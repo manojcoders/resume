@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import "./index.css";  // Ensure Tailwind is imported in your project
 import "./App.css";    // You can keep your custom styles here, but we will primarily use Tailwind classes now
 const App = () => {
@@ -36,7 +37,9 @@ const App = () => {
  
 
    return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-200">
+    <>
+      <SpeedInsights />
+      <div className="min-h-screen flex items-center justify-center bg-gray-200">
       {isLoading ? (
         <div className="relative w-16 h-16 border-4 border-transparent border-t-black rounded-full animate-spin">
         <div className="absolute top-1/2 left-1/2 w-8 h-8 bg-indigo-300 rounded-full transform -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
@@ -74,10 +77,10 @@ const App = () => {
           <span class="text-gray-600">Software Developer</span>
           <span class="text-gray-600">VulcanTechs | Jan 2024 – Present</span>
           <span class="text-gray-400 text-xs font-serif">
-            • Joined as an Intern and later converted to a Regular Full-Time Employee.<br>
-            • Developing and maintaining web applications using PHP, MySQL, JavaScript, React, Node.js, and jQuery.<br>
-            • Handling AWS deployment: EC2, S3, IAM, VPC, Security Groups, Load Balancer, Auto Scaling, and ACM.<br>
-            • Collaborating with cross-functional teams to implement features and improve performance.<br>
+            • Joined as an Intern and later converted to a Regular Full-Time Employee.<br />
+            • Developing and maintaining web applications using PHP, MySQL, JavaScript, React, Node.js, and jQuery.<br />
+            • Handling AWS deployment: EC2, S3, IAM, VPC, Security Groups, Load Balancer, Auto Scaling, and ACM.<br />
+            • Collaborating with cross-functional teams to implement features and improve performance.<br />
             • Debugging, testing, and deploying scalable software solutions.
           </span>
 
@@ -245,7 +248,7 @@ const App = () => {
        </div>
       )}
       </div>
-      
+      </>
   );
 }
 
