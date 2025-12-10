@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";  // Ensure Tailwind is imported in your project
 import "./App.css";    // You can keep your custom styles here, but we will primarily use Tailwind classes now
-
 const App = () => {
   const [currentTime, setCurrentTime] = useState("");
   const [isLoading, setIsLoading] = useState(true);
